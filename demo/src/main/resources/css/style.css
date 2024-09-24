@@ -1,0 +1,69 @@
+
+/**
+ STYLES
+ */
+
+.base{
+    -fx-background-color: transparent;
+}
+
+.glass{
+    -fx-background-color: rgba(0, 0, 0, 0.4); /* Last number indicates opacity*/
+}
+
+.center-box{
+ -fx-background-color: #ECF0F1;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+}
+
+.app-name{
+    -fx-font-size: 24;
+    -fx-text-fill: #34495E;
+}
+
+.labels{
+    -fx-font-size: 14;
+    -fx-text-fill: #2C3E50;
+}
+
+.inputs{
+    -fx-font-size: 14;
+    -fx-min-height: 34;
+    -fx-background-color: #ffffff;
+    -fx-background-insets: 0;
+    -fx-border-color: #73b0d9;
+    -fx-border-radius: 3;
+    -fx-background-radius: 3;
+    -fx-text-fill: #2C3E50;
+}
+
+.inputs:focused,
+.inputs:selected{
+    -fx-border-color: #2980B9;
+}
+
+.login-button{
+    -fx-pref-width: 1000;
+    -fx-font-size: 16;
+    -fx-min-height: 36;
+    -fx-max-height: 26;
+    -fx-background-insets: 0;
+    -fx-border-radius: 3;
+    -fx-background-radius: 3;
+    -fx-background-color: transparent;
+    -fx-border-color: #3498DB;
+    -fx-text-fill: #2C3E50;
+    -fx-font-weight: bold;
+}
+
+.login-button:hover{
+    -fx-background-color: #3498DB;
+    -fx-text-fill: #ffffff;
+    -fx-cursor: hand;
+}
+
+.login-button:armed{
+    -fx-background-color: transparent;
+    -fx-text-fill: #2C3E50;
+}
